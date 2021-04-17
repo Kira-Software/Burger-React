@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.theBurgerTop{
+  height: 100px;
+  width: 400px;
+  background-color: rgb(189, 113, 42);
+  margin: 50px 50px 10px 50px;
+  border-radius: 250px 250px 50px 50px;
+  
+}
+
+.theBurgerSeeds1{
+  height: 30px;
+  width: 10px;
+  background-color: #f5e1ce;
+ position: relative;
+ margin-left: 100px;
+ margin-top: -50px;
+ margin-bottom: 20px;
+  border-radius: 40%;
+  
+}
+
+.theBurgerSeeds2{
+  height: 30px;
+  width: 10px;
+  background-color: #f5e1ce;
+ position: relative;
+ margin-left: 200px;
+ margin-top: -50px;
+ margin-bottom: 20px;
+  border-radius: 40%;
+  
+}
+
+.theBurgerSeeds3{
+  height: 30px;
+  width: 10px;
+  background-color: #f5e1ce;
+ position: relative;
+ margin-left: 300px;
+ margin-top: -50px;
+ margin-bottom: 20px;
+  border-radius: 40%;
+  
+}
+
+.theBurgerSeeds4{
+  height: 30px;
+  width: 10px;
+  background-color: #f5e1ce;
+ position: relative;
+ margin-left: 400px;
+ margin-top: -50px;
+ margin-bottom: 20px;
+  border-radius: 40%;
+  
+}
+
+.theBurgerMeat{
+  height: 30px;
+  width: 400px;
+  background-color: rgb(167, 31, 31);
+  margin: 10px 50px 10px 50px;
+  border-radius:  20px;
+  
+}
+
+.theBurgerSalad{
+  height: 50px;
+  width: 400px;
+  background-color: rgb(80, 153, 80);
+  margin: 10px 50px 10px 50px;
+    border-radius:  20px;
+  
+}
+
+.theBurgerCheese{
+  height: 50px;
+  width: 450px;
+  background-color: rgb(240, 184, 63);
+  margin: 10px 50px 10px 25px;
+    border-radius:  20px;
+  
+}
+
+
+.theBurgerBottom{
+  height: 100px;
+  width: 400px;
+  background-color: rgb(189, 113, 42);
+  margin: 10px 50px 50px 50px;
+  border-radius:  50px 50px 250px 250px;
+  
+}
+
+
+
+

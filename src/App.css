@@ -1,0 +1,328 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.theBurgerTop{
+  height: 100px;
+  width: 400px;
+  background-color: rgb(189, 113, 42);
+  margin: 50px 50px 10px 50px;
+  border-radius: 250px 250px 50px 50px;
+  
+}
+
+.theBurgerSeeds1{
+  height: 30px;
+  width: 10px;
+  background-color: #f5e1ce;
+ position: relative;
+ margin-left: 100px;
+ margin-top: -50px;
+ margin-bottom: 20px;
+  border-radius: 40%;
+  
+}
+
+.theBurgerSeeds2{
+  height: 30px;
+  width: 10px;
+  background-color: #f5e1ce;
+ position: relative;
+ margin-left: 200px;
+ margin-top: -50px;
+ margin-bottom: 20px;
+  border-radius: 40%;
+  
+}
+
+.theBurgerSeeds3{
+  height: 30px;
+  width: 10px;
+  background-color: #f5e1ce;
+ position: relative;
+ margin-left: 300px;
+ margin-top: -50px;
+ margin-bottom: 20px;
+  border-radius: 40%;
+  
+}
+
+.theBurgerSeeds4{
+  height: 30px;
+  width: 10px;
+  background-color: #f5e1ce;
+ position: relative;
+ margin-left: 400px;
+ margin-top: -50px;
+ margin-bottom: 20px;
+  border-radius: 40%;
+  
+}
+
+.theBurgerMeat{
+  height: 30px;
+  width: 400px;
+  background-color: rgb(110, 0, 0);
+  margin: 10px 50px 10px 50px;
+  border-radius:  20px;
+  
+}
+
+.theBurgerSalad{
+  height: 30px;
+  width: 400px;
+  background-color: rgb(36, 112, 36);
+  margin: 10px 50px 10px 50px;
+    border-radius:  20px;
+  
+}
+
+.theBurgerCheese{
+  height: 30px;
+  width: 450px;
+  background-color: rgb(223, 184, 102);
+  margin: 10px 50px 10px 25px;
+    border-radius:  20px;
+  
+}
+
+
+.theBurgerBottom{
+  height: 100px;
+  width: 400px;
+  background-color: rgb(189, 113, 42);
+  margin: 10px 50px 50px 50px;
+  border-radius:  50px 50px 250px 250px;
+  
+}
+
+
+
+
+.theBurger{
+  margin-left: 200px;
+  height: 450px;
+  width: 800px;
+overflow: auto;  
+ 
+}
+
+.burgerText{
+  position: relative;
+  margin-left: 120px;
+}
+
+ /*@media (max-width:1000px) {
+  .theBurger{
+    width: 300px;
+    height: 100px;
+    left: 0;
+    top: 0;
+   
+    
+    
+  }
+
+  .burgerControlers{
+    width: 200px;
+    background-color: rgba(173, 114, 3, 0.795);
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 5px;
+    text-align: center;
+    display: none;
+  }
+
+  .theBurgerTop{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(189, 113, 42);
+    margin: 50px 50px 10px 50px;
+    border-radius: 250px 250px 50px 50px;
+    
+  }
+  
+  .theBurgerSeeds1{
+    height: 10px;
+    width: 10px;
+    background-color: #f5e1ce;
+   position: relative;
+   margin-left: 60px;
+   margin-top: -30px;
+   margin-bottom: 20px;
+    border-radius: 40%;
+    
+  }
+  
+  .theBurgerSeeds2{
+    height: 10px;
+    width: 10px;
+    background-color: #f5e1ce;
+   position: relative;
+   margin-left: 80px;
+   margin-top: -30px;
+   margin-bottom: 20px;
+    border-radius: 40%;
+    
+  }
+  
+  .theBurgerSeeds3{
+    height: 10px;
+    width: 10px;
+    background-color: #f5e1ce;
+   position: relative;
+   margin-left: 100px;
+   margin-top: -30px;
+   margin-bottom: 20px;
+    border-radius: 40%;
+    
+  }
+  
+  .theBurgerSeeds4{
+    height: 10px;
+    width: 10px;
+    background-color: #f5e1ce;
+   position: relative;
+   margin-left: 120px;
+   margin-top: -30px;
+   margin-bottom: 20px;
+    border-radius: 40%;
+    
+  }
+
+  .burgerText{
+    width: 100px;
+    margin-left: 50px;
+  }
+  
+  .theBurgerMeat{
+    height: 30px;
+    width:100px;
+    background-color: rgb(110, 0, 0);
+    margin: 10px 50px 10px 50px;
+    border-radius:  20px;
+    
+  }
+  
+  .theBurgerSalad{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(36, 112, 36);
+    margin: 10px 50px 10px 50px;
+      border-radius:  20px;
+    
+  }
+  
+  .theBurgerCheese{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(223, 184, 102);
+    margin: 10px 50px 10px 25px;
+      border-radius:  20px;
+    
+  }
+  
+  
+  .theBurgerBottom{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(189, 113, 42);
+    margin: 10px 50px 50px 50px;
+    border-radius:  50px 50px 250px 250px;
+    
+  }
+  
+  
+} */
+
+.burgerControlers{
+  width: 50%;
+  background-color: rgba(173, 114, 3, 0.795);
+  height: 300px;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+.burgerControl{
+  margin: 30px 100px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ControlLabel{
+  margin:  0px 20px;
+}
+
+.ControlMoreBtn{
+  margin:  0px 20px;
+  background-color: rgb(112, 78, 14);
+  color: white;
+  width: 70px;
+  font-size: 14px;
+}
+
+.ControlLessBtn{
+  margin:  0px 20px;
+  background-color: rgb(173, 115, 8);
+  color: white;
+  width: 70px;
+  font-size: 14px;
+}
+
+#modal{
+  position: fixed;
+  z-index: 100;
+  width: 500px;
+  height: 250px;
+  left: 20%;
+  top: 15%;
+  border: 5px gray ridge;
+  background-color: white;
+  transition: all 0.5s ease-out;
+  display: none;
+}
+
+.backdrop{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}

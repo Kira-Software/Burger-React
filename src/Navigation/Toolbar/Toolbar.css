@@ -1,0 +1,7 @@
+.toolbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(143, 73, 7);
+    display: flex;
+    justify-content:space-between;
+}
